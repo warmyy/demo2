@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <title>Document</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<script type="text/javascript" src='js/swiper.min.js'></script>
+		<script type="text/javascript" src='js/rem.js'></script>
+		<script type="text/javascript" src='js/jquery-3.1.1.min.js'></script>
+</head>
+<body>
+	<div id="box">
+		<div class='headergif'>
+				<img src="img/propaganda%20word.png">
+		</div>
+		<div class="container">
+			<div class="title">
+				<img src="img/512-icon.png" >
+				<div>
+					<p>全心爱你</p>
+					<p>5月20日首发</p>
+				</div>
+			</div>
+			<div class="yufl">
+					<div class="tit">
+						预约福利
+					</div>
+					<div class="con">
+							<img src="img/md.png" style="">
+							<p>
+								<span>
+									预约用户中抽取5个免单名额
+								</span>
+								<span>
+									活动详情请关注全心爱你社区  
+								</span>
+							</p>
+					</div>
+			</div>
+			<div class="yxjs">
+					<div class="tit">
+						游戏介绍
+					</div>
+					<div class="con">
+							<p>
+								<span>
+									在一场宇宙爆炸事故中，我失去了你......
+								</span>
+								<span>
+									唯一留下的是飞船上的逃生舱 
+								</span>
+							</p>
+							<p>
+								<span>
+									从此，我流浪于星际~
+								</span>
+								<span>
+									在飞船的起落之间，辗转于各个星球
+								</span>
+							</p>
+							<p>
+								<span>
+									为了找到你散落在宇宙的碎片
+								</span>
+								<span>
+									为了寻回曾经关于我们的记忆
+								</span>
+								<span>
+									我曾失去你，便必定会找到你——
+								</span>
+							</p>
+							<p>
+								<span>
+									探索最奇妙的宇宙和星球，稀奇古怪的外星人、烧脑的时空谜题和隐藏的物质纷纷登场。在通关后，您将发现科斯莫（Kosmo）和诺娃（Nova）之间凄美的爱情故事！
+								</span>
+							</p>
+					</div>
+			</div>
+			<div class="yxsp">
+					<div class="tit">
+						游戏视频
+					</div>
+					<div class="con">
+						<video width="100%" height="100%"  poster='img/video.png' id='videoId' loop>
+							<source src="img/video.mp4" type="video/mp4"></source>
+						</video>
+						<img src="img/videobtn.png" id="videobtn" onclick="video()">
+
+					</div>
+			</div>
+			<div class="yxjt">
+					<div class="tit">
+						游戏截图
+					</div>
+					<div class="swiper-container">
+								<div class="swiper-wrapper">
+									 <div class="swiper-slide screenshots"><img src="img/2.jpg"></div>
+										<div class="swiper-slide screenshots"><img src="img/1.jpg"></div>
+										<div class="swiper-slide screenshots"><img src="img/3.jpg"></div>
+										<div class="swiper-slide screenshots"><img src="img/4.jpg"></div>
+										<div class="swiper-slide screenshots"><img src="img/5.jpg"></div>
+
+								</div>
+						</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+     var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      // grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+			initialSlide:1,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+
+$(function(){
+	var videoId = $("#videoId");
+	$("#videoId").click(function(){
+				if(videoId.paused) { 
+					// this.controls = false;
+					$("#videoId").trigger("play");
+          }else{
+						// alert(2)
+						// this.controls = true;
+						$("#videobtn").css("display","block");
+            $("#videoId").trigger("pause");
+          }     
+	})
+})
+function video(){
+		$("#videobtn").css("display","none");
+		$("#videoId").trigger("play");
+}
+
+</script>
+
+</html>

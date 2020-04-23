@@ -1,0 +1,257 @@
+@font-face {
+	font-family: 'JZunYuan';
+	src: url('JZunYuan.ttf');
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+#box .headergif {
+	width: 100%;
+	height: 8.1rem;
+	background-image: url(../img/6.gif);
+	text-align: center;
+	/* background-repeat: no-repeat; */
+	background-size: contain;
+}
+
+#box .headergif img {
+	width: 5.8rem;
+	margin-top: 1.5rem;
+}
+
+#box .container {
+	/* width: 100%;
+		height: 100%; */
+	background-image: url(../img/backgroundimg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/* height: 31.47rem; */
+	/* margin-top: -8.2rem; */
+	margin-top: -4.4rem;
+	/* padding-left:0.45rem ;
+			padding-right:0.45rem ; */
+}
+
+/* 全新爱你icon部分 */
+#box .container .title {
+	/* padding-top: 8.72rem; */
+	/* padding-top: 5.72rem; */
+	padding-top: 4.9rem;
+	padding-left: 0.45rem;
+	padding-right: 0.45rem;
+	margin-bottom: 0.38rem;
+	overflow: hidden
+}
+
+#box .container .title img {
+	width: 1.27rem;
+	height: 1.27rem;
+	float: left;
+}
+
+#box .container .title div {
+	float: left;
+	margin-left: 0.29rem;
+}
+
+#box .container .title div p:nth-child(1) {
+	margin: 0;
+	font-size: 0.34rem;
+	color: #FFFFFF;
+	margin-top: 0.12rem;
+	margin-bottom: 0.2rem;
+	font-family: 'JZunYuan';
+
+
+}
+
+#box .container .title div p:nth-child(2) {
+	margin: 0;
+	font-size: 0.2rem;
+	color: #9C989B;
+	font-family: 'JZunYuan';
+
+}
+
+/* 预约福利 */
+#box .container .yufl {
+	margin-bottom: 0.38rem;
+	padding-left: 0.45rem;
+	padding-right: 0.45rem;
+}
+
+#box .container .yufl .tit {
+	width: 2.82rem;
+	height: 1.02rem;
+	line-height: 1.42rem;
+	background-image: url(../img/yyfl.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 0.25rem;
+	font-family: 'JZunYuan';
+
+	color: #FFFFFF;
+	margin-bottom: 0.4rem;
+
+}
+
+#box .container .yufl .con {
+	text-align: center;
+}
+
+#box .container .yufl .con img {
+	width: 1.93rem;
+	height: 1.13rem;
+}
+
+#box .container .yufl .con p span:nth-child(1) {
+	display: block;
+	font-size: 0.25rem;
+	font-family: 'JZunYuan';
+
+	color: #FDFDFD;
+}
+
+#box .container .yufl .con p span:nth-child(2) {
+	display: block;
+	font-size: 0.2rem;
+	font-family: 'JZunYuan';
+
+	color: #A8A7A7;
+}
+
+/* 游戏介绍 */
+#box .container .yxjs {
+	padding-left: 0.45rem;
+	padding-right: 0.45rem;
+}
+
+#box .container .yxjs .tit {
+	width: 2.97rem;
+	height: 0.89rem;
+	line-height: 1.16rem;
+	background-image: url(../img/yxjs.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 0.25rem;
+	font-family: 'JZunYuan';
+
+	color: #FFFFFF;
+	margin-bottom: 0.34rem;
+
+}
+
+#box .container .yxjs .con {
+	padding-left: 0.37rem;
+	padding-right: 0.37rem;
+	box-sizing: border-box;
+}
+
+#box .container .yxjs .con p {
+	margin-bottom: 0.45rem;
+}
+
+#box .container .yxjs .con p:last-child {
+	margin-bottom: 0;
+}
+
+#box .container .yxjs .con p span {
+	font-size: 0.25rem;
+	font-family: 'JZunYuan';
+
+	color: #FDFDFD;
+	display: block;
+}
+
+/* 游戏视频 */
+
+#box .container .yxsp {
+	margin-bottom: 0.16rem;
+	position: relative;
+	padding-left: 0.45rem;
+	padding-right: 0.45rem;
+}
+
+#box .container .yxsp .tit {
+	width: 2.82rem;
+	height: 1.02rem;
+	line-height: 1.42rem;
+	background-image: url(../img/yyfl.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 0.25rem;
+	font-family: 'JZunYuan';
+
+	color: #FFFFFF;
+	margin-bottom: 0.4rem;
+	margin: auto;
+	position: relative;
+}
+
+#box .container .yxsp .con {
+	width: 6.02rem;
+	height: 3.78rem;
+	border: 0.06rem solid #BE289B;
+	border-radius: 0.15rem;
+	background: #FFFFFF;
+	margin: auto;
+	padding: 0.17rem;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+	margin-top: -0.3rem;
+}
+
+#box .container .yxsp .con #videobtn {
+	position: absolute;
+	width: 0.72rem;
+	top: 2.6rem;
+	left: 3.5rem;
+}
+
+/* 游戏截图 */
+#box .swiper-container .swiper-wrapper .screenshots img {
+	width: 100%;
+}
+
+/* #box .container .yxjt {
+	padding-bottom: 1.32rem;
+}
+ */
+#box .container .yxjt .tit {
+	width: 2.97rem;
+	height: 0.89rem;
+	line-height: 1.16rem;
+	background-image: url(../img/yxjs.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 0.25rem;
+	font-family: 'JZunYuan';
+
+	color: #FFFFFF;
+	margin: auto;
+	margin-bottom: 0.24rem;
+}
+
+#box .container .yxjt .swiper-container .swiper-wrapper .screenshots {
+
+	width: 5.4rem;
+	/* height: 3.52rem; */
+	/* width:5.4rem; */
+
+}
+
+#box .container .yxjt .swiper-container .swiper-wrapper .screenshots img {
+	width: 100%;
+	border: 0.04rem solid #FFFFFF;
+}
